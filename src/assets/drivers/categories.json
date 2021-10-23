@@ -1,0 +1,35 @@
+{
+    "data": [
+        {
+            "name": "Systems and Assembly",
+            "abbr": "sa",
+            "url": "systems-and-assembly",
+            "assets": ""
+        },
+        {
+            "name": "Ecology",
+            "abbr": "ec",
+            "url": "ecology",
+            "assets": ""
+        },
+        {
+            "name": "Empowerment",
+            "abbr": "ep",
+            "url": "empowerment",
+            "assets": ""
+        },
+        {
+            "name": "Conservation and Heritage",
+            "abbr": "ch",
+            "url": "conservation-and-heritage",
+            "assets": ""
+        },
+        {
+            "name": "Healing and Wellness",
+            "abbr": "hw",
+            "url": "healing-and-wellness",
+            "assets": ""
+        }
+        
+    ]
+}
