@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       
       <Switch>
-      <Route path="/home/:category" exact component={categoryProvider} />
       <Route path="/home" component={Home} />
+      <Route path="/themes/:category" exact component={categoryProvider} />
       <Route path="/people/:name" component={ProfileProvider}/> 
       <Route path="/projects/:projectname" component={ProjectsProvider}/> 
 

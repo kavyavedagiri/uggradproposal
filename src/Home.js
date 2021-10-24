@@ -6,7 +6,7 @@ class Home extends Component {
     render() {
         return (
           <>
-          {categories.data.map((el) => <Link to={`/home/${el.url}/`}>{el.name}</Link>)}
+          {categories.data.map((el) => <Link to={`/themes/${el.url}/`}>{el.name}</Link>)}
           </>
         );
       }
