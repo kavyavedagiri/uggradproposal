@@ -1,0 +1,29 @@
+.footer_links {
+  padding: 0px 10px;
+  justify-content: end;
+}
+.footer_links > ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer_links > ul > li {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.footer_links > ul > li:nth-child(2) > h3 > .back_cl {
+  background-color: #957b5f;
+  cursor: pointer;
+}
+.footer_links > ul > li:nth-child(3) > h3 > .back_cl {
+  background-color: #2b7d77;
+  cursor: pointer;
+}
+.footer_sponsors {
+  padding: 0px 10px;
+}
+.footer_sponsors > ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}

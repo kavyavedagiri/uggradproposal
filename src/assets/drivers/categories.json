@@ -1,35 +1,49 @@
 {
-    "data": [
-        {
-            "name": "Systems and Assembly",
-            "abbr": "sa",
-            "url": "systems-and-assembly",
-            "assets": ""
-        },
-        {
-            "name": "Ecology",
-            "abbr": "ec",
-            "url": "ecology",
-            "assets": ""
-        },
-        {
-            "name": "Empowerment",
-            "abbr": "ep",
-            "url": "empowerment",
-            "assets": ""
-        },
-        {
-            "name": "Conservation and Heritage",
-            "abbr": "ch",
-            "url": "conservation-and-heritage",
-            "assets": ""
-        },
-        {
-            "name": "Healing and Wellness",
-            "abbr": "hw",
-            "url": "healing-and-wellness",
-            "assets": ""
-        }
-        
-    ]
+  "data": [
+    {
+      "name": "Systems and Assembly",
+      "abbr": "sa",
+      "url": "systems-and-assembly",
+      "assets": "",
+      "info": "Architecture is a living system too complex to be explained by isolated variables and definitive causal relationships. However, these designers remain undaunted in their investigation and deconstruction of architecture’s underlying mechanisms. Interested in more than just the formal and aesthetic language of the profession, they approach architecture meticulously and methodologically with the belief that design can be rationalized. They actively study and tinker with materials, computational operations, and fabrication techniques, in hopes of gaining full clarity of the layers that make an architecture what it is. Iteration after iteration, they push the boundaries of architecture and seek to optimize or even perfect these systems and tools to reimagine and reshape the built environment."
+    },
+    {
+      "name": "Ecology",
+      "abbr": "ec",
+      "url": "ecology",
+      "assets": "",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "name": "Empowerment",
+      "abbr": "ep",
+      "url": "empowerment",
+      "assets": "",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "name": "Conservation and Heritage",
+      "abbr": "ch",
+      "url": "conservation-and-heritage",
+      "assets": "",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "name": "Healing and Wellness",
+      "abbr": "hw",
+      "url": "healing-and-wellness",
+      "assets": "",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  ],
+  "message": {
+    "title": "message from our head of pillar",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque porttitor vehicula. Praesent lectus nulla, aliquet ac mollis eget, suscipit eu sapien. Suspendisse aliquet nulla mi, sit amet rutrum orci aliquam eu. Vestibulum vitae cursus purus, quis luctus turpis. Aenean ac suscipit dolor. In vitae leo pellentesque, vestibulum turpis eu, efficitur dolor. Aenean gravida consectetur tellus vel cursus. Duis finibus, purus id interdum vulputate, ipsum felis fringilla nisi, sed elementum odio eros et lacus. Ut gravida elementum nisi. Donec vel justo id sapien venenatis eleifend finibus a augue. Donec efficitur malesuada enim a convallis. Maecenas nec aliquet diam, nec luctus arcu. Etiam a mi eu metus tristique lobortis at et orci. Vestibulum convallis, ipsum facilisis porta dictum, neque nulla feugiat metus, eget facilisis tortor magna ac nisi. Duis maximus tristique tempor. Nullam sodales hendrerit enim ac luctus. Integer imperdiet dapibus risus volutpat porta. Pellentesque sed ex leo. Vestibulum ut ligula enim. Cras commodo velit pharetra nibh vehicula aliquet. Aenean magna tortor, sodales ut magna quis, suscipit dictum lorem. Sed feugiat nisi nisl, non posuere sapien malesuada tincidunt. Sed a facilisis elit. Donec volutpat, dui quis consectetur malesuada, diam ex bibendum elit, at molestie ligula purus eget lectus.",
+    "asset": "/static/media/asd-faculty-tai-lee-siang-2021.b68f1cb0.jpg"
+  },
+  "about": {
+    "title": "Gradshow 2021",
+    "content": "This year, the NEXT STOP celebrates the unique journeys of every undergraduate student of ASD class of 2021. The challenges that every student faced strongly reflects in their design ethos and style that propagates through this exhibit. Through the five categories that connects the plethora of ideas from all individuals, the exhibit will demonstrate the versatility of all students who embarked this journey of self-discovery; where we are now and where we could be heading next.",
+    "asset": "https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&mute=1&loop=1"
+  }
 }

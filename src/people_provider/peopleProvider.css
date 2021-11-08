@@ -1,0 +1,54 @@
+.pplpro_bg {
+  padding-top: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.cat1 {
+  background-image: url("../assets/images/Background/category1.png");
+}
+.cat2 {
+  background-image: url("../assets/images/Background/category2.png");
+}
+.cat3 {
+  background-image: url("../assets/images/Background/category3.png");
+}
+.cat4 {
+  background-image: url("../assets/images/Background/category4.png");
+}
+.cat5 {
+  background-image: url("../assets/images/Background/category5.png");
+}
+.content1 {
+  background-color: #270f3c !important;
+  border: 5px solid #ca8bff !important;
+}
+.content2 {
+  background-color: #061a25 !important;
+  border: 5px solid #6acfec !important;
+}
+.content3 {
+  background-color: #3d1d12 !important;
+  border: 5px solid #f7ae47 !important;
+}
+.content4 {
+  background-color: #161f0a !important;
+  border: 5px solid #888909 !important;
+}
+.content5 {
+  background-color: #c53a52 !important;
+  border: 5px solid #fdb395 !important;
+}
+
+.cat_content {
+  margin: 20px;
+  padding: 30px;
+  border-radius: 0px !important;
+  box-shadow: 10px 8px 0px 4px rgb(0 0 0 / 38%) !important;
+  color: #d5d5d5 !important;
+  width: 60% !important;
+}
+.cat_content > .MuiGrid-container > .MuiGrid-item {
+  text-align: center;
+}
