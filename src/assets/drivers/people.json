@@ -1,41 +1,58 @@
 {
-    "data": [
-        {
-            "name": "John",
-            "url": "john-smith",
-            "id": 1,
-            "category": "sa"
-        },
-        {
-            "name": "Timothy",
-            "url": "tim-cook",
-            "id": 2,
-            "category": "ep"
-        },
-        {
-            "name": "Singh",
-            "url": "cap-singh",
-            "id": 3,
-            "category": "sa"
-        },
-        {
-            "name": "Donald",
-            "url": "donald-trump",
-            "id": 4,
-            "category": "hw"
-        },
-        {
-            "name": "Obama",
-            "url": "barack-obama",
-            "id": 5,
-            "category": "ec"
-        },
-        {
-            "name": "Lee",
-            "url": "jane-lee",
-            "id": 6,
-            "category": "ch"
-        }
-        
-    ]
+  "data": [
+    {
+      "name": "John",
+      "url": "john-smith",
+      "id": 1,
+      "category": "sa"
+    },
+    {
+      "name": "Timothy",
+      "url": "tim-cook",
+      "id": 2,
+      "category": "ep"
+    },
+    {
+      "name": "Singh",
+      "url": "cap-singh",
+      "id": 3,
+      "category": "sa"
+    },
+    {
+      "name": "Singh",
+      "url": "cap-singh",
+      "id": 3,
+      "category": "sa"
+    },
+    {
+      "name": "Singh",
+      "url": "cap-singh",
+      "id": 3,
+      "category": "sa"
+    },
+    {
+      "name": "Singh",
+      "url": "cap-singh",
+      "id": 3,
+      "category": "sa"
+    },
+    {
+      "name": "Donald",
+      "url": "donald-trump",
+      "id": 4,
+      "category": "hw"
+    },
+    {
+      "name": "Obama",
+      "url": "barack-obama",
+      "id": 5,
+      "category": "ec"
+    },
+    {
+      "name": "Lee",
+      "url": "jane-lee",
+      "id": 6,
+      "category": "ch"
+    }
+  ]
 }

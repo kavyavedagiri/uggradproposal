@@ -68,7 +68,9 @@ class Header extends Component {
           />
           <ul style={this.state.compass_style}>
             <li>
-              <h3>MAIN PAGE</h3>
+              <h3>
+                <a href="/">MAIN PAGE</a>
+              </h3>
             </li>
             <li>
               <h3>undergraduate</h3>
@@ -91,9 +93,7 @@ class Header extends Component {
             </li>
             <li>
               <h3>
-                <a className="anchor" href="#about">
-                  about
-                </a>
+                <a href="#about">about</a>
               </h3>
             </li>
             <li>

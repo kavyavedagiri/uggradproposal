@@ -140,12 +140,15 @@ class Home extends Component {
                       allowfullscreen
                     />
                   </mat.Grid>
-                  <mat.Grid item md={4} xs={12}>
-                    <mat.Grid
-                      container
-                      alignItems="center"
-                      justifyContent="center"
-                    >
+                  <mat.Grid
+                    item
+                    md={4}
+                    xs={12}
+                    sx={{ display: "flex", flexDirection: "column" }}
+                    alignItems="center"
+                    justifyContent="center"
+                  >
+                    <mat.Grid container>
                       <h2>
                         <span className="back_cl">
                           {" "}
@@ -174,19 +177,32 @@ class Home extends Component {
             <mat.Grid item xs={11} alignItems="center" justifyContent="center">
               <mat.Paper className="home_content">
                 <mat.Grid container spacing={4}>
-                  <mat.Grid item md={4} xs={12}>
+                  <mat.Grid
+                    item
+                    md={4}
+                    xs={12}
+                    sx={{ display: "flex" }}
+                    alignItems="center"
+                    justifyContent="center"
+                  >
                     <img
                       width="100%"
-                      src={categories.message.asset}
+                      src={
+                        require(`../assets/images/${categories.message.asset}`)
+                          .default
+                      }
                       alt="faculty"
                     />
                   </mat.Grid>
-                  <mat.Grid item md={8} xs={12}>
-                    <mat.Grid
-                      container
-                      alignItems="center"
-                      justifyContent="center"
-                    >
+                  <mat.Grid
+                    item
+                    md={8}
+                    xs={12}
+                    sx={{ display: "flex", flexDirection: "column" }}
+                    alignItems="center"
+                    justifyContent="center"
+                  >
+                    <mat.Grid container>
                       {" "}
                       <h2>
                         {" "}
