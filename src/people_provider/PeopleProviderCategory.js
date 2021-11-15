@@ -88,37 +88,86 @@ class PeopleProvider extends Component {
               alt="island"
               className="island_main"
             />
-            <Link to={`/themes/${filter_url[0]}`}>
+            {/*  BRIDGE - START */}
+            <div className="bridge_NE">
               <img
                 src={
                   require(`../assets/images/Bridges/${this.props.island_info.assets.bridge}`)
                     .default
                 }
+                width="100%"
                 alt="island"
-                className="bridge_NE"
               />
-            </Link>
-            <Link to={`/themes/${filter_url[1]}`}>
+              <Link to={`/themes/${filter_url[0]}`}>
+                {" "}
+                <mat.Button
+                  variant="contained"
+                  size="small"
+                  className="home_btn bridge_btn"
+                >
+                  {filter_url[0]}
+                </mat.Button>
+              </Link>
+            </div>
+            <div className="bridge_NW">
               <img
-                src={require("../assets/images/Bridges/bridge1NE.png").default}
+                src={
+                  require(`../assets/images/Bridges/${this.props.island_info.assets.bridge}`)
+                    .default
+                }
+                width="100%"
                 alt="island"
-                className="bridge_NW"
+                className="bridge_rev"
               />
-            </Link>
-            <Link to={`/themes/${filter_url[2]}`}>
+              <Link to={`/themes/${filter_url[1]}`}>
+                <mat.Button
+                  variant="contained"
+                  size="small"
+                  className="home_btn bridge_btn"
+                >
+                  {filter_url[1]}
+                </mat.Button>
+              </Link>
+            </div>
+            <div className="bridge_SW">
               <img
-                src={require("../assets/images/Bridges/bridge1NE.png").default}
+                src={
+                  require(`../assets/images/Bridges/${this.props.island_info.assets.bridge}`)
+                    .default
+                }
+                width="100%"
                 alt="island"
-                className="bridge_SW"
               />
-            </Link>
-            <Link to={`/themes/${filter_url[3]}`}>
+              <Link to={`/themes/${filter_url[2]}`}>
+                <mat.Button
+                  variant="contained"
+                  size="small"
+                  className="home_btn bridge_btn"
+                >
+                  {filter_url[2]}
+                </mat.Button>
+              </Link>
+            </div>
+            <div className="bridge_SE">
               <img
-                src={require("../assets/images/Bridges/bridge1NE.png").default}
+                src={
+                  require(`../assets/images/Bridges/${this.props.island_info.assets.bridge}`)
+                    .default
+                }
+                width="100%"
                 alt="island"
-                className="bridge_SE"
+                className="bridge_rev "
               />
-            </Link>
+              <Link to={`/themes/${filter_url[3]}`}>
+                <mat.Button
+                  variant="contained"
+                  size="small"
+                  className="home_btn bridge_btn"
+                >
+                  {filter_url[3]}
+                </mat.Button>
+              </Link>
+            </div>
             <mat.Grid container className="students_list">
               {students.map((student) => {
                 return (

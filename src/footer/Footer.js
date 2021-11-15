@@ -58,20 +58,16 @@ export default class Footer extends Component {
           </mat.Grid>
         </mat.Grid>
 
-        <mat.Grid item md={12}>
-          <mat.Grid container justifyContent="center">
-            <mat.Grid
-              item
-              md={12}
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                width: "100%",
-              }}
-            >
-              © 2021 by SUTD ASD
-            </mat.Grid>
-          </mat.Grid>
+        <mat.Grid
+          item
+          md={12}
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            width: "100%",
+          }}
+        >
+          © {new Date().getFullYear()} by SUTD ASD
         </mat.Grid>
       </mat.Grid>
     );

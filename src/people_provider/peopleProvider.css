@@ -67,7 +67,6 @@
   left: 8%;
   position: absolute;
   width: 20%;
-  transform: scaleX(-1);
 }
 .bridge_SW {
   cursor: pointer;
@@ -82,6 +81,8 @@
   position: absolute;
   width: 20%;
   bottom: 24px;
+}
+.bridge_rev {
   transform: scaleX(-1);
 }
 .cat_content {
@@ -161,6 +162,11 @@
   -ms-transform: translateY(28%) scale(0.9);
   -o-transform: translateY(28%) scale(0.9);
 }
+.bridge_btn {
+  position: absolute !important;
+  top: 25%;
+  left: 25%;
+}
 @media only screen and (max-width: 600px) {
   .island_main {
     width: 88%;
@@ -179,5 +185,20 @@
     -moz-transform: scale(0.5) !important;
     -ms-transform: scale(0.5) !important;
     -o-transform: scale(0.5) !important;
+  }
+  .bridge_btn {
+    position: absolute !important;
+    top: 25%;
+    right: 25%;
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    -o-transform: scale(0.6);
+  }
+  .bridge_btn {
+    position: absolute !important;
+    top: 25%;
+    left: -40%;
   }
 }
