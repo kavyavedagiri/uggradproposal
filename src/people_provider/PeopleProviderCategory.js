@@ -5,14 +5,12 @@ import people from "../assets/drivers/people.json";
 import categories from "../assets/drivers/categories.json";
 import * as mat from "@mui/material";
 import "./peopleProvider.css";
-// console.log(categories)
 class PeopleProvider extends Component {
   constructor() {
     super();
   }
 
   render() {
-    //console.log(this.props.island_info);
     // get abbreivation from the category name
     let categorySymbol = categories.data.filter((el) => {
       return el.name === this.props.category;
@@ -38,7 +36,7 @@ class PeopleProvider extends Component {
     var current_name = [this.props.island_info.name];
     var filter_name = all_name.filter((x) => !current_name.includes(x));
 
-    console.log(filter_name);
+    console.log(this.props.island_info);
     return (
       <div className={`pplpro_bg cat_${categorySymbol}`}>
         <mat.Grid container>
@@ -174,7 +172,8 @@ class PeopleProvider extends Component {
                   <mat.Grid item className="student_wrapper">
                     <img
                       src={
-                        require(`../assets/images/People/person1.png`).default
+                        require(`../assets/images/People/${student.assets.alt_img}`)
+                          .default
                       }
                     />
                     <mat.Button
@@ -182,7 +181,14 @@ class PeopleProvider extends Component {
                       size="small"
                       className="home_btn"
                     >
-                      <Link to={`/people/${student.url}`}>{student.name}</Link>{" "}
+                      <Link
+                        to={{
+                          pathname: `/people/${student.url}`,
+                          state: { categorySymbol: categorySymbol },
+                        }}
+                      >
+                        {student.name}
+                      </Link>{" "}
                     </mat.Button>
                   </mat.Grid>
                 );

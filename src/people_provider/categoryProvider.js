@@ -14,7 +14,6 @@ class categoryProvider extends Component {
         category = el.name;
         info = el.info;
         island_info = el;
-        console.log(el);
       }
     });
     return (

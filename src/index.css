@@ -36,6 +36,9 @@ h2 {
   font-size: 32px;
 }
 h3 {
+  font-size: 24px;
+}
+h4 {
   font-size: 16px;
 }
 a {
@@ -49,7 +52,10 @@ a {
   h1 {
     font-size: 32px;
   }
-  h3 {
+  h4 {
     font-size: 15px;
+  }
+  h3 {
+    font-size: 16px;
   }
 }

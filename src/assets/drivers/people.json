@@ -4,55 +4,96 @@
       "name": "John",
       "url": "john-smith",
       "id": 1,
-      "category": "sa"
+      "category": "sa",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing., sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "assets": {
+        "profile_img": "person1profile.jpg",
+        "thumbnail_img": "person1.png"
+      },
+      "social": [
+        {
+          "icon": "https://static.wixstatic.com/media/a1fed5f687844a6e8f42e017f71dfcb4.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01/a1fed5f687844a6e8f42e017f71dfcb4.webp",
+          "url": "https://www.instagram.com/wix/"
+        },
+        {
+          "icon": "https://static.wixstatic.com/media/aebe5b6fd55f471a936c72ff2c8289d7.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01/aebe5b6fd55f471a936c72ff2c8289d7.webp",
+          "url": ""
+        },
+        {
+          "icon": "https://static.wixstatic.com/media/aeb686ff41244d85bc1232fcf7325ec0.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01/aeb686ff41244d85bc1232fcf7325ec0.webp",
+          "url": ""
+        },
+        {
+          "icon": "https://static.wixstatic.com/media/fcfebdfae12a44f993a94aeed8e2e66b.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01/fcfebdfae12a44f993a94aeed8e2e66b.webp",
+          "url": ""
+        },
+        {
+          "icon": "https://static.wixstatic.com/media/40898a93cfff4578b1779073137eb1b4.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01/40898a93cfff4578b1779073137eb1b4.webp",
+          "url": ""
+        },
+        {
+          "icon": "https://static.wixstatic.com/media/11062b_c7468ec61d494ead83af6058b76cadc0~mv2.png/v1/fill/w_31,h_31,al_c,q_85,usm_0.66_1.00_0.01/11062b_c7468ec61d494ead83af6058b76cadc0~mv2.webp",
+          "url": ""
+        }
+      ]
     },
     {
       "name": "Timothy",
       "url": "tim-cook",
       "id": 2,
-      "category": "ep"
+      "category": "ep",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing., sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "assets": {
+        "profile_img": "person1.png",
+        "thumbnail_img": "person1.png"
+      },
+      "social": [{ "icon": "", "url": "" }]
     },
     {
       "name": "Singh",
       "url": "cap-singh",
       "id": 3,
-      "category": "sa"
-    },
-    {
-      "name": "Singh",
-      "url": "cap-singh",
-      "id": 3,
-      "category": "sa"
-    },
-    {
-      "name": "Singh",
-      "url": "cap-singh",
-      "id": 3,
-      "category": "sa"
-    },
-    {
-      "name": "Singh",
-      "url": "cap-singh",
-      "id": 3,
-      "category": "sa"
+      "category": "sa",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing., sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "assets": {
+        "profile_img": "person1.png",
+        "thumbnail_img": "person1.png"
+      },
+      "social": [{ "icon": "", "url": "" }]
     },
     {
       "name": "Donald",
       "url": "donald-trump",
       "id": 4,
-      "category": "hw"
+      "category": "hw",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing., sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "assets": {
+        "profile_img": "person1.png",
+        "thumbnail_img": "person1.png"
+      },
+      "social": [{ "icon": "", "url": "" }]
     },
     {
       "name": "Obama",
       "url": "barack-obama",
       "id": 5,
-      "category": "ec"
+      "category": "ec",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing., sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "assets": {
+        "profile_img": "person1.png",
+        "thumbnail_img": "person1.png"
+      }
     },
     {
       "name": "Lee",
       "url": "jane-lee",
       "id": 6,
-      "category": "ch"
+      "category": "ch",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing., sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "assets": {
+        "profile_img": "person1.png",
+        "thumbnail_img": "person1.png"
+      }
     }
   ]
 }

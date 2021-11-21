@@ -17,7 +17,6 @@ class Header extends Component {
     };
   }
   render() {
-    console.log(this.props);
     return (
       /* HEADER - START */
       <mat.Box sx={{ flexGrow: 1 }}>
@@ -68,15 +67,15 @@ class Header extends Component {
           />
           <ul style={this.state.compass_style}>
             <li>
-              <h3>
+              <h4>
                 <a href="/">MAIN PAGE</a>
-              </h3>
+              </h4>
             </li>
             <li>
-              <h3>undergraduate</h3>
+              <h4>undergraduate</h4>
             </li>
             <li>
-              <h3>master of architecture</h3>
+              <h4>master of architecture</h4>
             </li>
           </ul>
         </mat.Box>
@@ -86,20 +85,20 @@ class Header extends Component {
         >
           <ul>
             <li>
-              <h3>
+              <h4>
                 {" "}
                 <a href="#main_menu">MAIN PAGE</a>
-              </h3>
+              </h4>
             </li>
             <li>
-              <h3>
+              <h4>
                 <a href="#about">about</a>
-              </h3>
+              </h4>
             </li>
             <li>
-              <h3>
+              <h4>
                 <a href="#message">message</a>
-              </h3>
+              </h4>
             </li>
           </ul>
         </mat.Box>

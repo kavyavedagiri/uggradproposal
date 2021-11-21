@@ -15,19 +15,19 @@ export default class Footer extends Component {
             <ul>
               <li>Learn more:</li>
               <li>
-                <h3>
+                <h4>
                   <span className="back_cl">PREVIOUS GRADSHOWS</span>
-                </h3>
+                </h4>
               </li>
               <li>
-                <h3>
+                <h4>
                   <span className="back_cl"> ASD Website</span>
-                </h3>
+                </h4>
               </li>
               <li>
-                <h3>
+                <h4>
                   <span className="back_cl">SUTD Website</span>
-                </h3>
+                </h4>
               </li>
             </ul>
           </mat.Grid>

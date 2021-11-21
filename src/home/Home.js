@@ -12,7 +12,7 @@ class Home extends Component {
         <mat.Grid container style={{ display: "flex" }} id="main_menu">
           <mat.Grid container alignItems="center" justifyContent="center">
             <mat.Grid item>
-              <h3 className="header_title back_cl">b.sc gradshow</h3>
+              <h4 className="header_title back_cl">b.sc gradshow</h4>
             </mat.Grid>
           </mat.Grid>
           <mat.Grid container alignItems="center" justifyContent="center">

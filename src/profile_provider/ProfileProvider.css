@@ -1,0 +1,48 @@
+.student_sa {
+  background-color: #4d3559;
+}
+.student_ep {
+  background-color: #701b00;
+}
+.student_hw {
+  background-color: #870017;
+}
+.student_ec {
+  background-color: #002c44;
+}
+.student_ch {
+  background-color: #161f0a;
+}
+.ppl_wrapper {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column !important;
+  padding: 30px;
+}
+.social_bar {
+  list-style: none;
+  white-space: nowrap;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+  margin: 0px;
+}
+.social_bar > li {
+  margin: 0px 5px;
+}
+.project_content {
+  margin: 20px;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  color: #d5d5d5 !important;
+  width: 70% !important;
+  background: #000000 !important;
+}
+.ppl_content {
+  margin: 20px;
+  border-radius: 0px !important;
+  box-shadow: 10px 8px 0px 4px rgb(0 0 0 / 38%) !important;
+  color: #d5d5d5 !important;
+  width: 70% !important;
+}
