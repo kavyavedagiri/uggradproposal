@@ -54,7 +54,7 @@
   "message": {
     "title": "message from our head of pillar",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque porttitor vehicula. Praesent lectus nulla, aliquet ac mollis eget, suscipit eu sapien. Suspendisse aliquet nulla mi, sit amet rutrum orci aliquam eu. Vestibulum vitae cursus purus, quis luctus turpis. Aenean ac suscipit dolor. In vitae leo pellentesque, vestibulum turpis eu, efficitur dolor. Aenean gravida consectetur tellus vel cursus. Duis finibus, purus id interdum vulputate, ipsum felis fringilla nisi, sed elementum odio eros et lacus. Ut gravida elementum nisi. Donec vel justo id sapien venenatis eleifend finibus a augue. Donec efficitur malesuada enim a convallis. Maecenas nec aliquet diam, nec luctus arcu. Etiam a mi eu metus tristique lobortis at et orci. Vestibulum convallis, ipsum facilisis porta dictum, neque nulla feugiat metus, eget facilisis tortor magna ac nisi. Duis maximus tristique tempor. Nullam sodales hendrerit enim ac luctus. Integer imperdiet dapibus risus volutpat porta. Pellentesque sed ex leo. Vestibulum ut ligula enim. Cras commodo velit pharetra nibh vehicula aliquet. Aenean magna tortor, sodales ut magna quis, suscipit dictum lorem. Sed feugiat nisi nisl, non posuere sapien malesuada tincidunt. Sed a facilisis elit. Donec volutpat, dui quis consectetur malesuada, diam ex bibendum elit, at molestie ligula purus eget lectus.",
-    "asset": "faculty.jpg"
+    "asset": "home/faculty.jpg"
   },
   "about": {
     "title": "Gradshow 2021",

@@ -5,8 +5,8 @@ import * as mat from "@mui/material";
 import * as icon from "@mui/icons-material";
 import "./header.css";
 // importing images
-import logo from "../assets/images/LogoASDwhite.png";
-import compass from "../assets/images/compass.png";
+import logo from "../assets/images/home/LogoASDwhite.png";
+import compass from "../assets/images/home/compass.png";
 class Header extends Component {
   constructor() {
     super();

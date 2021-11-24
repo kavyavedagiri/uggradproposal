@@ -44,7 +44,9 @@ export default class Footer extends Component {
                 <mat.Grid container>
                   <mat.Grid item md={3}>
                     <img
-                      src={require("../assets/images/LogoSponsor.png").default}
+                      src={
+                        require("../assets/images/home/LogoSponsor.png").default
+                      }
                       alt="logo sponsor"
                       width="60px"
                     />

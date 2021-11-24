@@ -7,8 +7,8 @@
       "participants": [1, 2, 6],
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "assests": {
-        "img1": "andyproject1.png",
-        "img2": "andyproject1_2.png"
+        "img1": "project1/andyproject1.png",
+        "img2": "project1/andyproject1_2.png"
       }
     },
     {
@@ -18,8 +18,8 @@
       "participants": [1, 4],
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "assests": {
-        "img1": "andyproject1.png",
-        "img2": "andyproject1_2.png"
+        "img1": "project1/andyproject1.png",
+        "img2": "project1/andyproject1_2.png"
       }
     },
     {
@@ -29,8 +29,8 @@
       "participants": [3, 2, 5],
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "assests": {
-        "img1": "andyproject1.png",
-        "img2": "andyproject1_2.png"
+        "img1": "project1/andyproject1.png",
+        "img2": "project1/andyproject1_2.png"
       }
     },
     {
@@ -40,8 +40,8 @@
       "participants": [2, 4, 1],
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "assests": {
-        "img1": "andyproject1.png",
-        "img2": "andyproject1_2.png"
+        "img1": "project1/andyproject1.png",
+        "img2": "project1/andyproject1_2.png"
       }
     },
     {
@@ -51,8 +51,8 @@
       "participants": [3, 4, 5],
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "assests": {
-        "img1": "andyproject1.png",
-        "img2": "andyproject1_2.png"
+        "img1": "project1/andyproject1.png",
+        "img2": "project1/andyproject1_2.png"
       }
     }
   ]
