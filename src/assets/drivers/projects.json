@@ -7,7 +7,7 @@
       "url": "housing",
       "id": 1,
       "participants": [1, 2, 6],
-      "layout_mode": "half",
+      "layout_mode": "full",
       "about": "Lorem ipsum dolor sit ametus.",
       "assests": {
         "img1": "project1/andyproject1.png",
