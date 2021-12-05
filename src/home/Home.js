@@ -207,7 +207,9 @@ class Home extends Component {
                     justifyContent="center"
                   >
                     <img
+                      height="340px"
                       width="100%"
+                      style={{ objectFit: "contain" }}
                       src={
                         require(`../assets/images/${categories.message.asset}`)
                           .default

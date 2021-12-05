@@ -67,7 +67,7 @@
 }
 .home_content > .MuiGrid-container > .MuiGrid-item {
   text-align: center;
-  min-height: 360px;
+  /* min-height: 360px; */
 }
 .home_btn:hover {
   background-color: #423737 !important;

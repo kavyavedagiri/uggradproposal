@@ -15,6 +15,7 @@ class PeopleProvider extends Component {
   }
 
   componentDidMount() {
+    window.scrollTo(0, 0);
     var categoryArray = people.data;
     var student_data;
     for (var i = 0; i < categoryArray.length; i++) {
@@ -113,7 +114,8 @@ class PeopleProvider extends Component {
                       <img
                         alt="profile"
                         width="100%"
-                        maxHeight="200px"
+                        height="250px"
+                        style={{ objectFit: "cover" }}
                         src={
                           require(`../assets/images/People/${
                             this.state.isHover["profile_pic"]
