@@ -8,6 +8,7 @@
       "id": 1,
       "participants": [1],
       "layout_mode": "full",
+      "theme": "light",
       "about": "Lorem ipsum dolor sit ametus.",
       "assests": {
         "img1": "project1/andyproject1.png",
@@ -41,6 +42,7 @@
       "id": 2,
       "participants": [1, 4],
       "layout_mode": "half",
+      "theme": "dark",
       "about": "Lorem ipsum dolor sit ametus.",
       "assests": {
         "img1": "project1/andyproject1.png",
@@ -74,6 +76,7 @@
       "id": 3,
       "participants": [3, 2, 5],
       "layout_mode": "half",
+      "theme": "dark",
       "about": "Lorem ipsum dolor sit ametus.",
       "assests": {
         "img1": "project1/andyproject1.png",
@@ -107,6 +110,7 @@
       "id": 4,
       "participants": [2, 4, 1],
       "layout_mode": "half",
+      "theme": "dark",
       "about": "Lorem ipsum dolor sit ametus.",
       "assests": {
         "img1": "project1/andyproject1.png",
@@ -140,6 +144,7 @@
       "id": 5,
       "participants": [3, 4, 5],
       "layout_mode": "half",
+      "theme": "light",
       "about": "Lorem ipsum dolor sit ametus.",
       "assests": {
         "img1": "project1/andyproject1.png",

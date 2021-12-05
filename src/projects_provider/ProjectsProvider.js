@@ -37,7 +37,10 @@ class ProjectsProvider extends Component {
 
     console.log(student_data);
     return (
-      <mat.Grid container style={{ background: "#000000" }}>
+      <mat.Grid
+        container
+        className={projectData.theme === "dark" ? "dark" : "light"}
+      >
         <mat.Grid container className="project_wrapper">
           <mat.Grid
             item
