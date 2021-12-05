@@ -1,6 +1,6 @@
 import React from "react";
 import { Component } from "react";
-import { Link, withRouter } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import * as mat from "@mui/material";
 import * as icon from "@mui/icons-material";
 import "./header.css";
@@ -76,29 +76,6 @@ class Header extends Component {
             </li>
             <li>
               <h4>master of architecture</h4>
-            </li>
-          </ul>
-        </mat.Box>
-        <mat.Box
-          sx={{ display: { xs: "none", md: "block" } }}
-          className="landing_menu"
-        >
-          <ul>
-            <li>
-              <h4>
-                {" "}
-                <a href="#main_menu">MAIN PAGE</a>
-              </h4>
-            </li>
-            <li>
-              <h4>
-                <a href="#about">about</a>
-              </h4>
-            </li>
-            <li>
-              <h4>
-                <a href="#message">message</a>
-              </h4>
             </li>
           </ul>
         </mat.Box>

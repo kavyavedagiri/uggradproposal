@@ -1,6 +1,5 @@
 import { Component } from "react";
 import { Link } from "react-router-dom";
-import ProjectsProvider from "../ProjectsProvider";
 import people from "../assets/drivers/people.json";
 import projects from "../assets/drivers/projects.json";
 import * as mat from "@mui/material";
@@ -19,7 +18,7 @@ class PeopleProvider extends Component {
     var categoryArray = people.data;
     var student_data;
     for (var i = 0; i < categoryArray.length; i++) {
-      if (categoryArray[i].url == this.props.match.params.name) {
+      if (categoryArray[i].url === this.props.match.params.name) {
         student_data = categoryArray[i];
       }
     }
@@ -28,9 +27,9 @@ class PeopleProvider extends Component {
       var social_key = Object.keys(social);
       var social_url = Object.values(social);
       if (social_key[0]) {
-        social_list.push(
+        return social_list.push(
           <li>
-            <a href={social_url[0]} target="_blank">
+            <a href={social_url[0]} target="_blank" rel="noreferrer">
               <img
                 alt="social"
                 src={
@@ -43,6 +42,8 @@ class PeopleProvider extends Component {
             </a>
           </li>
         );
+      } else {
+        return false;
       }
     });
     this.setState({ social_list: social_list });
@@ -72,9 +73,9 @@ class PeopleProvider extends Component {
       return JSON.stringify(el.url) === nameParam;
     })[0].id;
 
-    let studentCategory = people.data.filter((el) => {
-      return JSON.stringify(el.category) === nameParam;
-    });
+    // let studentCategory = people.data.filter((el) => {
+    //   return JSON.stringify(el.category) === nameParam;
+    // });
     // use that id and find match from projects array
     let projectsList = projects.data.filter((el) =>
       el.participants.includes(studentID)
@@ -83,7 +84,7 @@ class PeopleProvider extends Component {
     var categoryArray = people.data;
     var student_data;
     for (var i = 0; i < categoryArray.length; i++) {
-      if (categoryArray[i].url == this.props.match.params.name) {
+      if (categoryArray[i].url === this.props.match.params.name) {
         student_data = categoryArray[i];
       }
     }
@@ -110,6 +111,7 @@ class PeopleProvider extends Component {
                   <mat.Grid item md={4} xs={12} className="ppl_wrapper">
                     <div>
                       <img
+                        alt="profile"
                         width="100%"
                         maxHeight="200px"
                         src={

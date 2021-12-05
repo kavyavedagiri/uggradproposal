@@ -6,10 +6,6 @@ import categories from "../assets/drivers/categories.json";
 import * as mat from "@mui/material";
 import "./peopleProvider.css";
 class PeopleProvider extends Component {
-  constructor() {
-    super();
-  }
-
   render() {
     // get abbreivation from the category name
     let categorySymbol = categories.data.filter((el) => {
@@ -23,7 +19,7 @@ class PeopleProvider extends Component {
     // filter url
     var all_url = [];
     categories.data.map((cat) => {
-      all_url.push(cat.url);
+      return all_url.push(cat.url);
     });
     var current_url = [this.props.island_info.url];
     var filter_url = all_url.filter((x) => !current_url.includes(x));
@@ -31,10 +27,10 @@ class PeopleProvider extends Component {
     // filter name
     var all_name = [];
     categories.data.map((cat) => {
-      all_name.push(cat.name);
+      return all_name.push(cat.name);
     });
-    var current_name = [this.props.island_info.name];
-    var filter_name = all_name.filter((x) => !current_name.includes(x));
+    // var current_name = [this.props.island_info.name];
+    // var filter_name = all_name.filter((x) => !current_name.includes(x));
 
     if (this.props.island_info) {
       return (
@@ -171,6 +167,7 @@ class PeopleProvider extends Component {
                   return (
                     <mat.Grid item className="student_wrapper">
                       <img
+                        alt="ppl"
                         src={
                           require(`../assets/images/People/${student.assets.thumbnail_img}`)
                             .default

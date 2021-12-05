@@ -2,7 +2,6 @@ import { Component } from "react";
 import categories from "../assets/drivers/categories.json";
 import PeopleProviderCategory from "./PeopleProviderCategory";
 
-// console.log(categories)
 class categoryProvider extends Component {
   render() {
     let category;

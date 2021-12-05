@@ -30,7 +30,9 @@
   cursor: pointer;
 }
 .compass > ul > li:hover,
-.landing_menu > ul > li:hover {
+.landing_menu > ul > li:hover,
+.landing_menu > ul > li:active,
+.compass > ul > li:active {
   color: #efb385;
 }
 #about {
