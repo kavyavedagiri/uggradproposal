@@ -58,13 +58,11 @@ class PeopleProvider extends Component {
                         justifyContent="center"
                       >
                         <h2>
-                          <span className="back_cl">
-                            {this.props.island_info.name}
-                          </span>
+                          <span>{this.props.island_info.name}</span>
                         </h2>
                       </mat.Grid>
                       <mat.Grid container justifyContent="center">
-                        <p className="back_cl">{this.props.island_info.info}</p>
+                        <p>{this.props.island_info.info}</p>
                       </mat.Grid>
                     </mat.Grid>
                   </mat.Grid>

@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./assets/fonts/AvenirLTStd-Book.otf";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+
 const theme = createTheme({
   typography: {
     fontFamily: ["AvenirLTStd-Book"],

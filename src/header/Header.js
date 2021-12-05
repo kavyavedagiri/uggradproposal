@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Component } from "react";
 import { withRouter } from "react-router-dom";
 import * as mat from "@mui/material";
@@ -37,7 +38,9 @@ class Header extends Component {
               <icon.Menu />
             </mat.IconButton>
             <mat.Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              <img src={logo} alt="ASDwhite" height="45px"></img>
+              <Link to="/">
+                <img src={logo} alt="ASDwhite" height="45px"></img>
+              </Link>
             </mat.Typography>
             <mat.Button
               color="inherit"

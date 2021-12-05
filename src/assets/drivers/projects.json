@@ -6,7 +6,7 @@
       "module": "Architecture Core Studio 2",
       "url": "housing",
       "id": 1,
-      "participants": [1, 2, 6],
+      "participants": [1],
       "layout_mode": "full",
       "about": "Lorem ipsum dolor sit ametus.",
       "assests": {

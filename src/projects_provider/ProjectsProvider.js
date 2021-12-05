@@ -81,7 +81,7 @@ class ProjectsProvider extends Component {
               >
                 <span>
                   <p>
-                    Students:
+                    {student_data.length > 1 ? "Students :" : "Student :"}
                     <br />
                     {student_data.map((stud) => {
                       return (

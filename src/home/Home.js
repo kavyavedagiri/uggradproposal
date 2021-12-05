@@ -35,7 +35,7 @@ class Home extends Component {
         <mat.Grid container style={{ display: "flex" }} id="main_menu">
           <mat.Grid container alignItems="center" justifyContent="center">
             <mat.Grid item>
-              <h4 className="header_title back_cl">b.sc gradshow</h4>
+              <h4 className="header_title">b.sc gradshow</h4>
             </mat.Grid>
           </mat.Grid>
           <mat.Grid container alignItems="center" justifyContent="center">
@@ -160,8 +160,8 @@ class Home extends Component {
                       width="100%"
                       height="100%"
                       src={categories.about.asset}
-                      frameborder="0"
-                      allowfullscreen
+                      frameBorder="0"
+                      allowFullScreen
                     />
                   </mat.Grid>
                   <mat.Grid
@@ -174,14 +174,11 @@ class Home extends Component {
                   >
                     <mat.Grid container>
                       <h2>
-                        <span className="back_cl">
-                          {" "}
-                          {categories.about.title}
-                        </span>
+                        <span> {categories.about.title}</span>
                       </h2>
                     </mat.Grid>
                     <mat.Grid container justifyContent="center">
-                      <p className="back_cl"> {categories.about.content}</p>
+                      <p> {categories.about.content}</p>
                     </mat.Grid>
                   </mat.Grid>
                 </mat.Grid>
@@ -230,13 +227,11 @@ class Home extends Component {
                       {" "}
                       <h2>
                         {" "}
-                        <span className="back_cl">
-                          {categories.message.title}
-                        </span>
+                        <span>{categories.message.title}</span>
                       </h2>
                     </mat.Grid>
                     <mat.Grid container justifyContent="center">
-                      <p className="back_cl">{categories.message.content}</p>
+                      <p>{categories.message.content}</p>
                     </mat.Grid>
                   </mat.Grid>
                 </mat.Grid>

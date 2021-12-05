@@ -16,17 +16,17 @@ export default class Footer extends Component {
               <li>Learn more:</li>
               <li>
                 <h4>
-                  <span className="back_cl">PREVIOUS GRADSHOWS</span>
+                  <span>PREVIOUS GRADSHOWS</span>
                 </h4>
               </li>
               <li>
                 <h4>
-                  <span className="back_cl"> ASD Website</span>
+                  <span> ASD Website</span>
                 </h4>
               </li>
               <li>
                 <h4>
-                  <span className="back_cl">SUTD Website</span>
+                  <span>SUTD Website</span>
                 </h4>
               </li>
             </ul>
