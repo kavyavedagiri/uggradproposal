@@ -152,7 +152,7 @@ class Home extends Component {
             <mat.Grid item xs={11} alignItems="center" justifyContent="center">
               <mat.Paper className="home_content">
                 <mat.Grid container spacing={4}>
-                  <mat.Grid item md={8} xs={12}>
+                  <mat.Grid item md={8} xs={12} className="iframe_wrapper">
                     <iframe
                       title="slideshow"
                       id="ytplayer"
@@ -160,7 +160,7 @@ class Home extends Component {
                       width="100%"
                       height="100%"
                       src={categories.about.asset}
-                      frameBorder="0"
+                      frameBorder={0}
                       allowFullScreen
                     />
                   </mat.Grid>
