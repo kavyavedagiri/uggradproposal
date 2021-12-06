@@ -15,6 +15,7 @@ class Header extends Component {
       compass_style: {
         display: "none",
       },
+      open_drawer: false,
     };
   }
   render() {
@@ -33,6 +34,9 @@ class Header extends Component {
               edge="start"
               color="inherit"
               aria-label="menu"
+              onClick={() => {
+                this.setState({ open_drawer: true });
+              }}
               sx={{ mr: 2, display: { xs: "block", md: "none" } }}
             >
               <icon.Menu />
@@ -71,7 +75,7 @@ class Header extends Component {
           <ul style={this.state.compass_style}>
             <li>
               <h4>
-                <a href="/">MAIN PAGE</a>
+                <Link to="/">MAIN PAGE</Link>
               </h4>
             </li>
             <li>
@@ -82,7 +86,44 @@ class Header extends Component {
             </li>
           </ul>
         </mat.Box>
+        <mat.Drawer
+          anchor="left"
+          open={this.state.open_drawer}
+          className="drawer"
+          onClose={() => {
+            this.setState({ open_drawer: false });
+          }}
+        >
+          <ul>
+            <li>
+              <h4
+                className="close_btn"
+                onClick={() => {
+                  this.setState({ open_drawer: false });
+                }}
+              >
+                <icon.CloseOutlined />
+              </h4>
+            </li>
+            <li>
+              <h4
+                onClick={() => {
+                  this.setState({ open_drawer: false });
+                }}
+              >
+                <Link to="/">main page</Link>
+              </h4>
+            </li>
+            <li>
+              <h4>undergraduate</h4>
+            </li>
+            <li>
+              <h4>master of architecture</h4>
+            </li>
+          </ul>
+        </mat.Drawer>
       </mat.Box>
+
       /* HEADER - END */
     );
   }

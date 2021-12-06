@@ -8,9 +8,6 @@ import * as mat from "@mui/material";
 // import * as icon from "@mui/icons-material";
 import "./projectsProvider.css";
 class ProjectsProvider extends Component {
-  componentDidUpdate() {
-    window.scrollTo(0, 0);
-  }
   render() {
     // get project url from name of project
     let projectParam = JSON.stringify(this.props.match.params.projectname);

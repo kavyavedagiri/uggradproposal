@@ -74,9 +74,6 @@ class PeopleProvider extends Component {
       return JSON.stringify(el.url) === nameParam;
     })[0].id;
 
-    // let studentCategory = people.data.filter((el) => {
-    //   return JSON.stringify(el.category) === nameParam;
-    // });
     // use that id and find match from projects array
     let projectsList = projects.data.filter((el) =>
       el.participants.includes(studentID)
@@ -90,132 +87,71 @@ class PeopleProvider extends Component {
       }
     }
     return (
-      <div className={`pplpro_bg student_${student_data.category}`}>
+      <mat.Grid container className="dark">
         <mat.Grid container>
-          <mat.Grid
-            container
-            alignItems="center"
-            justifyContent="center"
-            style={{ display: "flex" }}
-          >
-            <mat.Grid
-              item
-              xs={12}
-              alignItems="center"
-              justifyContent="center"
-              style={{ display: "flex", justifyContent: "center" }}
-            >
-              <mat.Paper
-                className={`ppl_content content_${student_data.category}`}
-              >
-                <mat.Grid container>
-                  <mat.Grid item md={4} xs={12} className="ppl_wrapper">
-                    <div>
-                      <img
-                        alt="profile"
-                        width="100%"
-                        height="250px"
-                        style={{ objectFit: "cover" }}
-                        src={
-                          require(`../assets/images/People/${
-                            this.state.isHover["profile_pic"]
-                              ? student_data.assets.profile_img
-                              : student_data.assets.thumbnail_img
-                          }`).default
-                        }
-                        onMouseOver={() => this.handle_hover("profile_pic")}
-                        onMouseOut={() => this.handle_hover_out("profile_pic")}
-                      />
-                      <ul className="social_bar">{this.state.social_list}</ul>
-                    </div>
-                  </mat.Grid>
-                  <mat.Grid item md={8} xs={12} className="ppl_wrapper">
-                    <mat.Grid
-                      container
-                      alignItems="center"
-                      justifyContent="center"
-                    >
-                      <h2>
-                        <span>{student_data.name}</span>
-                      </h2>
-                    </mat.Grid>
-                    <mat.Grid container justifyContent="center">
-                      <p>{student_data.about}</p>
-                    </mat.Grid>
-                  </mat.Grid>
-                </mat.Grid>
-              </mat.Paper>
-            </mat.Grid>
-            {projectsList
-              ? projectsList.map((projectsList) => {
-                  /* PROJECTS */
-                  return (
-                    <mat.Grid
-                      item
-                      xs={12}
-                      alignItems="center"
-                      justifyContent="center"
-                      style={{ display: "flex", justifyContent: "center" }}
-                    >
-                      <mat.Paper className="project_content">
-                        <mat.Grid container>
-                          <mat.Grid
-                            item
-                            md={8}
-                            xs={12}
-                            style={{ height: "400px" }}
-                          >
-                            <img
-                              alt="social"
-                              src={
-                                require(`../assets/images/Projects/${
-                                  this.state.isHover[projectsList.id]
-                                    ? projectsList.assests.img2
-                                    : projectsList.assests.img1
-                                }`).default
-                              }
-                              width="100%"
-                              height="100%"
-                              style={{ objectFit: "cover" }}
-                            />
-                          </mat.Grid>
-                          <mat.Grid
-                            item
-                            md={4}
-                            xs={12}
-                            alignItems="center"
-                            style={{ padding: "20px", display: "flex" }}
-                            onMouseOver={() =>
-                              this.handle_hover(projectsList.id)
-                            }
-                            onMouseOut={() =>
-                              this.handle_hover_out(projectsList.id)
-                            }
-                          >
-                            <div>
-                              <h3>{projectsList.name}</h3>
-                              <p>{projectsList.about}</p>
-                              <Link
-                                to={`/projects/${projectsList.url}`}
-                                style={{
-                                  display: "flex",
-                                  alignItems: "center",
-                                }}
-                              >
-                                Read more{"  "}
-                                <icon.ArrowForward sx={{ fontSize: 16 }} />
-                              </Link>
-                            </div>
-                          </mat.Grid>
-                        </mat.Grid>
-                      </mat.Paper>
-                    </mat.Grid>
-                  );
-                })
-              : null}
+          <mat.Grid item md={6} xs={12} className="ppl_wrapper">
+            <img
+              alt="profile"
+              width="auto"
+              height="350px"
+              style={{ objectFit: "contain" }}
+              src={
+                require(`../assets/images/People/${
+                  this.state.isHover["profile_pic"]
+                    ? student_data.assets.thumbnail_img
+                    : student_data.assets.profile_img
+                }`).default
+              }
+              onMouseOver={() => this.handle_hover("profile_pic")}
+              onMouseOut={() => this.handle_hover_out("profile_pic")}
+            />
+          </mat.Grid>
+          <mat.Grid item md={6} xs={12} className="ppl_wrapper">
+            <h2>
+              <span>{student_data.name}</span>
+            </h2>
+            <p style={{ lineHeight: "35px" }}>{student_data.about}</p>
+            <ul className="social_bar">{this.state.social_list}</ul>
           </mat.Grid>
         </mat.Grid>
-      </div>
+        <mat.Grid
+          container
+          justifyContent="center"
+          style={{ marginTop: "55px" }}
+        >
+          {projectsList
+            ? projectsList.map((projectsList) => {
+                /* PROJECTS */
+                return (
+                  <mat.Grid item>
+                    <mat.Paper className="project_content">
+                      <Link to={`/projects/${projectsList.url}`}>
+                        <img
+                          alt="social"
+                          src={
+                            require(`../assets/images/Projects/${
+                              this.state.isHover[projectsList.id]
+                                ? projectsList.assests.img2
+                                : projectsList.assests.img1
+                            }`).default
+                          }
+                          width="350"
+                          height="100%"
+                          style={{ objectFit: "contain" }}
+                        />
+                        <div style={{ textAlign: "center" }}>
+                          <h3>{projectsList.name}</h3>
+                          <p>{projectsList.about}</p>
+                        </div>{" "}
+                      </Link>
+                      {/* </mat.Grid> */}
+                    </mat.Paper>
+                  </mat.Grid>
+                );
+              })
+            : null}
+        </mat.Grid>
+      </mat.Grid>
     );
   }
 }
