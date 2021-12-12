@@ -1,7 +1,44 @@
 .pplpro_bg {
   padding-top: 80px;
-  background-color: #000000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   min-height: 100vh;
+}
+.cat_sa {
+  background-image: url("../assets/images/Background/category1.png");
+}
+.cat_ec {
+  background-image: url("../assets/images/Background/category2.png");
+}
+.cat_ep {
+  background-image: url("../assets/images/Background/category3.png");
+}
+.cat_ch {
+  background-image: url("../assets/images/Background/category4.png");
+}
+.cat_hw {
+  background-image: url("../assets/images/Background/category5.png");
+}
+.content_sa {
+  background-color: #270f3c !important;
+  border: 5px solid #ca8bff !important;
+}
+.content_ec {
+  background-color: #061a25 !important;
+  border: 5px solid #6acfec !important;
+}
+.content_ep {
+  background-color: #3d1d12 !important;
+  border: 5px solid #f7ae47 !important;
+}
+.content_ch {
+  background-color: #161f0a !important;
+  border: 5px solid #888909 !important;
+}
+.content_hw {
+  background-color: #c53a52 !important;
+  border: 5px solid #fdb395 !important;
 }
 .island_wrapper {
   display: flex;
@@ -10,12 +47,12 @@
   margin: 60px 20px;
 }
 .island_main {
-  transform: translate(0px, -34px);
+  transform: translate(0px, -34px) rotate(157deg);
   width: 55%;
-  -webkit-transform: translate(0px, -34px);
-  -moz-transform: translate(0px, -34px);
-  -ms-transform: translate(0px, -34px);
-  -o-transform: translate(0px, -34px);
+  -webkit-transform: translate(0px, -34px) rotate(157deg);
+  -moz-transform: translate(0px, -34px) rotate(157deg);
+  -ms-transform: translate(0px, -34px) rotate(157deg);
+  -o-transform: translate(0px, -34px) rotate(157deg);
 }
 .bridge_NE {
   cursor: pointer;
@@ -54,11 +91,10 @@
   border-radius: 0px !important;
   box-shadow: 10px 8px 0px 4px rgb(0 0 0 / 38%) !important;
   color: #d5d5d5 !important;
-  background: #000000 !important;
   width: 70% !important;
 }
 .cat_content > .MuiGrid-container > .MuiGrid-item {
-  text-align: justify;
+  text-align: center;
 }
 .students_list {
   position: absolute;
@@ -68,7 +104,19 @@
   align-items: center;
   justify-content: center;
 }
-
+/* .student_wrapper {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+} */
+/* .student_wrapper > img {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+} */
 .students_list > .student_wrapper {
   display: flex;
   flex-direction: column;

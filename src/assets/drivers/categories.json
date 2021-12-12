@@ -5,7 +5,7 @@
       "abbr": "sa",
       "url": "systems-and-assembly",
       "assets": {
-        "island": "island1.png",
+        "island": "SYSTEMATIC_ASSEMBLY.png",
         "bridge": "bridge1NE.png"
       },
       "info": "Architecture is a living system too complex to be explained by isolated variables and definitive causal relationships. However, these designers remain undaunted in their investigation and deconstruction of architecture’s underlying mechanisms. Interested in more than just the formal and aesthetic language of the profession, they approach architecture meticulously and methodologically with the belief that design can be rationalized. They actively study and tinker with materials, computational operations, and fabrication techniques, in hopes of gaining full clarity of the layers that make an architecture what it is. Iteration after iteration, they push the boundaries of architecture and seek to optimize or even perfect these systems and tools to reimagine and reshape the built environment."
@@ -15,7 +15,7 @@
       "abbr": "ec",
       "url": "ecology",
       "assets": {
-        "island": "island1.png",
+        "island": "PRODUCTIVE_ECOLOGY.png",
         "bridge": "bridge1NE.png"
       },
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -25,7 +25,7 @@
       "abbr": "ep",
       "url": "empowerment",
       "assets": {
-        "island": "island1.png",
+        "island": "EMPOWERING_COMMUNITIES.png",
         "bridge": "bridge1NE.png"
       },
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -35,7 +35,7 @@
       "abbr": "ch",
       "url": "conservation-and-heritage",
       "assets": {
-        "island": "island1.png",
+        "island": "RECONTEXTUALISING_NARRATIVES.png",
         "bridge": "bridge1NE.png"
       },
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -45,7 +45,17 @@
       "abbr": "hw",
       "url": "healing-and-wellness",
       "assets": {
-        "island": "island1.png",
+        "island": "RE-CALIBRATING_WELLNESS.png",
+        "bridge": "bridge1NE.png"
+      },
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "name": "EXPLORING POSSIBILITIES",
+      "abbr": "ep",
+      "url": "exploring-possibilities",
+      "assets": {
+        "island": "EXPLORING_POSSIBILITIES.png",
         "bridge": "bridge1NE.png"
       },
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -60,5 +70,9 @@
     "title": "Gradshow 2021",
     "content": "This year, the NEXT STOP celebrates the unique journeys of every undergraduate student of ASD class of 2021. The challenges that every student faced strongly reflects in their design ethos and style that propagates through this exhibit. Through the five categories that connects the plethora of ideas from all individuals, the exhibit will demonstrate the versatility of all students who embarked this journey of self-discovery; where we are now and where we could be heading next.",
     "asset": "https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&mute=1&loop=1"
+  },
+  "interviews": {
+    "title": "interviews",
+    "content": "This year, the NEXT STOP celebrates the unique journeys of every undergraduate student of ASD class of 2021. The challenges that every student faced strongly reflects in their design ethos and style that propagates through this exhibit. Through the five categories that connects the plethora of ideas from all individuals, the exhibit will demonstrate the versatility of all students who embarked this journey of self-discovery; where we are now and where we could be heading next."
   }
 }

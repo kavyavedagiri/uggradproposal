@@ -7,30 +7,41 @@
       "url": "housing",
       "id": 1,
       "participants": [1],
-      "layout_mode": "full",
       "theme": "light",
       "about": "Lorem ipsum dolor sit ametus.",
-      "assests": {
-        "img1": "project1/andyproject1.png",
-        "img2": "project1/andyproject1_2.png"
-      },
+      "thumbnail": "SA02/taiyo_P3_thumbnail.png",
       "mainContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur pellentesque porttitor vehicula. Praesent lectus nulla, aliquet ac mollis eget, suscipit eu sapien. Suspendisse aliquet nulla mi, sit amet rutrum orci aliquam eu. Vestibulum vitae cursus purus, quis luctus turpis. Aenean ac suscipit dolor. In vitae leo pellentesque, vestibulum turpis eu, efficitur dolor. Aenean gravida consectetur tellus vel cursus. Duis finibus, purus id interdum vulputate, ipsum felis fringilla nisi, sed elementum odio eros et lacus. Ut gravida elementum nisi. Donec vel justo id sapien venenatis eleifend finibus a augue. Donec efficitur malesuada enim a convallis. Maecenas nec aliquet diam, nec luctus arcu. Etiam a mi eu metus tristique lobortis at et orci. Vestibulum convallis, ipsum facilisis porta dictum, neque nulla feugiat metus, eget facilisis tortor magna ac nisi. Duis maximus tristique tempor. Nullam sodales hendrerit enim ac luctus. Integer imperdiet dapibus risus volutpat porta. Pellentesque sed ex leo. Vestibulum ut ligula enim. Cras commodo velit pharetra nibh vehicula aliquet. Aenean magna tortor, sodales ut magna quis, suscipit dictum lorem. Sed feugiat nisi nisl, non posuere sapien malesuada tincidunt. Sed a facilisis elit. Donec volutpat, dui quis consectetur malesuada, diam ex bibendum elit, at molestie ligula purus eget lectus.",
       "subContent": [
         {
-          "image": "project1/andyproject1.png",
-          "definition": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur pellentesque porttitor vehicula. Praesent lectus nulla, aliquet ac mollis eget, suscipit eu sapien. Suspendisse aliquet nulla mi, sit amet rutrum orci aliquam eu. Vestibulum vitae cursus purus, quis luctus turpis. Aenean ac suscipit dolor. In vitae leo pellentesque, vestibulum turpis eu, efficitur dolor. Aenean gravida consectetur tellus vel cursus. Duis finibus, purus id interdum vulputate, ipsum felis fringilla nisi, sed elementum odio eros et lacus. Ut gravida elementum nisi. Donec vel justo id sapien venenatis eleifend finibus a augue. Donec efficitur malesuada enim a convallis. Maecenas nec aliquet diam, nec luctus arcu. Etiam a mi eu metus tristique lobortis at et orci. Vestibulum convallis, ipsum facilisis porta dictum, neque nulla feugiat metus, eget facilisis tortor magna ac nisi. Duis maximus tristique tempor. Nullam sodales hendrerit enim ac luctus. Integer imperdiet dapibus risus volutpat porta. Pellentesque sed ex leo. Vestibulum ut ligula enim. Cras commodo velit pharetra nibh vehicula aliquet. Aenean magna tortor, sodales ut magna quis, suscipit dictum lorem. Sed feugiat nisi nisl, non posuere sapien malesuada tincidunt. Sed a facilisis elit. Donec volutpat, dui quis consectetur malesuada, diam ex bibendum elit, at molestie ligula purus eget lectus."
+          "image": "SA02/taiyo_P3_1.png",
+          "definition": "Lorem ipsum dolor sit amet,  Suspendisse aliquet nulla mi, sit amet rutrum orci aliquam eu."
         },
         {
-          "image": "project1/andyproject1.png",
+          "image": "SA02/taiyo_P3_2.png",
           "definition": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
-          "image": "project1/andyproject1.png",
+          "image": "SA02/taiyo_P3_3.jpg",
           "definition": "Lorem ipsum dolor sit amet, conslabore et dolore magna aliqua."
         },
         {
-          "image": "project1/andyproject1.png",
+          "image": "SA02/taiyo_P3_4.png",
           "definition": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+          "image": "SA02/taiyo_P3_5.png"
+        },
+        {
+          "image": "SA02/taiyo_P3_6.png"
+        },
+        {
+          "image": "SA02/taiyo_P3_7.png"
+        },
+        {
+          "image": "SA02/taiyo_P3_8.png"
+        },
+        {
+          "image": "SA02/taiyo_P3_9.png"
         }
       ]
     },
@@ -44,10 +55,7 @@
       "layout_mode": "half",
       "theme": "dark",
       "about": "Lorem ipsum dolor sit ametus.",
-      "assests": {
-        "img1": "project1/andyproject1.png",
-        "img2": "project1/andyproject1_2.png"
-      },
+      "thumbnail": "SA02/taiyo_P3_thumbnail.png",
       "mainContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur pellentesque porttitor vehicula. Praesent lectus nulla, aliquet ac mollis eget, suscipit eu sapien. Suspendisse aliquet nulla mi, sit amet rutrum orci aliquam eu. Vestibulum vitae cursus purus, quis luctus turpis. Aenean ac suscipit dolor. In vitae leo pellentesque, vestibulum turpis eu, efficitur dolor. Aenean gravida consectetur tellus vel cursus. Duis finibus, purus id interdum vulputate, ipsum felis fringilla nisi, sed elementum odio eros et lacus. Ut gravida elementum nisi. Donec vel justo id sapien venenatis eleifend finibus a augue. Donec efficitur malesuada enim a convallis. Maecenas nec aliquet diam, nec luctus arcu. Etiam a mi eu metus tristique lobortis at et orci. Vestibulum convallis, ipsum facilisis porta dictum, neque nulla feugiat metus, eget facilisis tortor magna ac nisi. Duis maximus tristique tempor. Nullam sodales hendrerit enim ac luctus. Integer imperdiet dapibus risus volutpat porta. Pellentesque sed ex leo. Vestibulum ut ligula enim. Cras commodo velit pharetra nibh vehicula aliquet. Aenean magna tortor, sodales ut magna quis, suscipit dictum lorem. Sed feugiat nisi nisl, non posuere sapien malesuada tincidunt. Sed a facilisis elit. Donec volutpat, dui quis consectetur malesuada, diam ex bibendum elit, at molestie ligula purus eget lectus.",
       "subContent": [
         {
@@ -78,10 +86,7 @@
       "layout_mode": "half",
       "theme": "dark",
       "about": "Lorem ipsum dolor sit ametus.",
-      "assests": {
-        "img1": "project1/andyproject1.png",
-        "img2": "project1/andyproject1_2.png"
-      },
+      "thumbnail": "SA02/taiyo_P3_thumbnail.png",
       "mainContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur pellentesque porttitor vehicula. Praesent lectus nulla, aliquet ac mollis eget, suscipit eu sapien. Suspendisse aliquet nulla mi, sit amet rutrum orci aliquam eu. Vestibulum vitae cursus purus, quis luctus turpis. Aenean ac suscipit dolor. In vitae leo pellentesque, vestibulum turpis eu, efficitur dolor. Aenean gravida consectetur tellus vel cursus. Duis finibus, purus id interdum vulputate, ipsum felis fringilla nisi, sed elementum odio eros et lacus. Ut gravida elementum nisi. Donec vel justo id sapien venenatis eleifend finibus a augue. Donec efficitur malesuada enim a convallis. Maecenas nec aliquet diam, nec luctus arcu. Etiam a mi eu metus tristique lobortis at et orci. Vestibulum convallis, ipsum facilisis porta dictum, neque nulla feugiat metus, eget facilisis tortor magna ac nisi. Duis maximus tristique tempor. Nullam sodales hendrerit enim ac luctus. Integer imperdiet dapibus risus volutpat porta. Pellentesque sed ex leo. Vestibulum ut ligula enim. Cras commodo velit pharetra nibh vehicula aliquet. Aenean magna tortor, sodales ut magna quis, suscipit dictum lorem. Sed feugiat nisi nisl, non posuere sapien malesuada tincidunt. Sed a facilisis elit. Donec volutpat, dui quis consectetur malesuada, diam ex bibendum elit, at molestie ligula purus eget lectus.",
       "subContent": [
         {
@@ -112,10 +117,7 @@
       "layout_mode": "half",
       "theme": "dark",
       "about": "Lorem ipsum dolor sit ametus.",
-      "assests": {
-        "img1": "project1/andyproject1.png",
-        "img2": "project1/andyproject1_2.png"
-      },
+      "thumbnail": "SA02/taiyo_P3_thumbnail.png",
       "mainContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur pellentesque porttitor vehicula. Praesent lectus nulla, aliquet ac mollis eget, suscipit eu sapien. Suspendisse aliquet nulla mi, sit amet rutrum orci aliquam eu. Vestibulum vitae cursus purus, quis luctus turpis. Aenean ac suscipit dolor. In vitae leo pellentesque, vestibulum turpis eu, efficitur dolor. Aenean gravida consectetur tellus vel cursus. Duis finibus, purus id interdum vulputate, ipsum felis fringilla nisi, sed elementum odio eros et lacus. Ut gravida elementum nisi. Donec vel justo id sapien venenatis eleifend finibus a augue. Donec efficitur malesuada enim a convallis. Maecenas nec aliquet diam, nec luctus arcu. Etiam a mi eu metus tristique lobortis at et orci. Vestibulum convallis, ipsum facilisis porta dictum, neque nulla feugiat metus, eget facilisis tortor magna ac nisi. Duis maximus tristique tempor. Nullam sodales hendrerit enim ac luctus. Integer imperdiet dapibus risus volutpat porta. Pellentesque sed ex leo. Vestibulum ut ligula enim. Cras commodo velit pharetra nibh vehicula aliquet. Aenean magna tortor, sodales ut magna quis, suscipit dictum lorem. Sed feugiat nisi nisl, non posuere sapien malesuada tincidunt. Sed a facilisis elit. Donec volutpat, dui quis consectetur malesuada, diam ex bibendum elit, at molestie ligula purus eget lectus.",
       "subContent": [
         {
@@ -146,10 +148,7 @@
       "layout_mode": "half",
       "theme": "light",
       "about": "Lorem ipsum dolor sit ametus.",
-      "assests": {
-        "img1": "project1/andyproject1.png",
-        "img2": "project1/andyproject1_2.png"
-      },
+      "thumbnail": "SA02/taiyo_P3_thumbnail.png",
       "mainContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur pellentesque porttitor vehicula. Praesent lectus nulla, aliquet ac mollis eget, suscipit eu sapien. Suspendisse aliquet nulla mi, sit amet rutrum orci aliquam eu. Vestibulum vitae cursus purus, quis luctus turpis. Aenean ac suscipit dolor. In vitae leo pellentesque, vestibulum turpis eu, efficitur dolor. Aenean gravida consectetur tellus vel cursus. Duis finibus, purus id interdum vulputate, ipsum felis fringilla nisi, sed elementum odio eros et lacus. Ut gravida elementum nisi. Donec vel justo id sapien venenatis eleifend finibus a augue. Donec efficitur malesuada enim a convallis. Maecenas nec aliquet diam, nec luctus arcu. Etiam a mi eu metus tristique lobortis at et orci. Vestibulum convallis, ipsum facilisis porta dictum, neque nulla feugiat metus, eget facilisis tortor magna ac nisi. Duis maximus tristique tempor. Nullam sodales hendrerit enim ac luctus. Integer imperdiet dapibus risus volutpat porta. Pellentesque sed ex leo. Vestibulum ut ligula enim. Cras commodo velit pharetra nibh vehicula aliquet. Aenean magna tortor, sodales ut magna quis, suscipit dictum lorem. Sed feugiat nisi nisl, non posuere sapien malesuada tincidunt. Sed a facilisis elit. Donec volutpat, dui quis consectetur malesuada, diam ex bibendum elit, at molestie ligula purus eget lectus.",
       "subContent": [
         {

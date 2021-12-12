@@ -1,48 +1,40 @@
 .home_bg {
-  background-color: #161d29;
-  min-height: max-content;
+  background-color: #7ca4c5;
 }
 .home_bg > .MuiGrid-container {
-  padding: 40px;
-  justify-content: center !important;
+  padding: 40px 0px;
 }
 .island_sx {
   display: flex;
   height: 200px;
 }
 .one {
-  background-image: url("../assets/images/Island/SYSTEMATIC_ASSEMBLY.png");
+  background-image: url("../assets/images/Archipelago/archipelago1.png");
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
 }
 .two {
-  background-image: url("../assets/images/Island/PRODUCTIVE_ECOLOGY.png");
+  background-image: url("../assets/images/Archipelago/archipelago2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 .three {
-  background-image: url("../assets/images/Island/RECONTEXTUALISING_NARRATIVES.png");
+  background-image: url("../assets/images/Archipelago/archipelago3.png");
   background-position: left;
   background-repeat: no-repeat;
   background-size: contain;
 }
 .four {
-  background-image: url("../assets/images/Island/EMPOWERING_COMMUNITIES.png");
+  background-image: url("../assets/images/Archipelago/archipelago4.png");
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
 }
 .five {
-  background-image: url("../assets/images/Island/EXPLORING_POSSIBILITIES.png");
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.six {
-  background-image: url("../assets/images/Island/RE-CALIBRATING_WELLNESS.png");
-  background-position: center;
+  background-image: url("../assets/images/Archipelago/archipelago5.png");
+  background-position: left;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -68,14 +60,10 @@
   margin: 20px;
   padding: 30px;
   border-radius: 0px !important;
-  border: none !important;
-  background: transparent !important;
-  box-shadow: none !important;
-  color: #d5d5d5 !important;
-  /* box-shadow: 6px 12px 0px 4px rgb(0 0 255 / 30%) !important;
+  box-shadow: 6px 12px 0px 4px rgb(0 0 255 / 30%) !important;
   color: #d5d5d5 !important;
   background-color: #423737 !important;
-  border: 5px solid #957b5f !important; */
+  border: 5px solid #957b5f !important;
 }
 .home_content > .MuiGrid-container > .MuiGrid-item {
   text-align: center;
@@ -92,48 +80,19 @@
 .iframe_wrapper {
   min-height: 500px;
 }
-
-.html5-video-player:not(.ytp-transparent),
-.html5-video-player.unstarted-mode,
-.html5-video-player.ad-showing,
-.html5-video-player.ended-mode,
-.html5-video-player.ytp-fullscreen {
-  background-color: #161d29 !important;
-}
-.nxt_stop {
-  display: flex;
-  flex-direction: column !important;
-  align-items: center;
-  justify-content: center;
-}
-.message {
-  padding: 0px 40px;
-}
 @media only screen and (max-width: 600px) {
   .home_bg {
     padding-top: 45px;
-  }
-  .message {
-    padding: 0px 40px 10px;
+    background-color: #7ca4c5;
   }
   .home_content {
     margin: 20px 5px;
     padding: 15px;
   }
-  .home_bg > .MuiGrid-container {
-    padding: 0px;
-  }
   .home_content > .MuiGrid-container > .MuiGrid-item {
     min-height: 100%;
   }
-  .scale {
-    transform: scale(0.65);
-    -moz-transform: scale(0.65);
-    -ms-transform: scale(0.65);
-    -o-transform: scale(0.65);
-    -webkit-transform: scale(0.65);
-  }
-  /* .three {
+  .three {
     background-position: center;
-  } */
+  }
 }

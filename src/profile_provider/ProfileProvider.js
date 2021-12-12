@@ -87,13 +87,13 @@ class PeopleProvider extends Component {
       }
     }
     return (
-      <mat.Grid container className="dark">
+      <mat.Grid container className="dark" style={{ justifyContent: "center" }}>
         <mat.Grid container>
           <mat.Grid item md={6} xs={12} className="ppl_wrapper">
             <img
               alt="profile"
               width="auto"
-              height="350px"
+              height="300px"
               style={{ objectFit: "contain" }}
               src={
                 require(`../assets/images/People/${
@@ -129,13 +129,10 @@ class PeopleProvider extends Component {
                         <img
                           alt="social"
                           src={
-                            require(`../assets/images/Projects/${
-                              this.state.isHover[projectsList.id]
-                                ? projectsList.assests.img2
-                                : projectsList.assests.img1
-                            }`).default
+                            require(`../assets/images/Projects/${projectsList.thumbnail}`)
+                              .default
                           }
-                          width="350"
+                          width="300"
                           height="100%"
                           style={{ objectFit: "contain" }}
                         />

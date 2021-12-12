@@ -41,15 +41,11 @@ class ProjectsProvider extends Component {
         className={projectData.theme === "dark" ? "dark" : "light"}
       >
         <mat.Grid container className="project_wrapper">
-          <mat.Grid
-            item
-            md={projectData.layout_mode === "full" ? 12 : 6}
-            xs={12}
-          >
+          <mat.Grid item md={6} xs={12}>
             <img
               alt="social"
               src={
-                require(`../../src/assets/images/Projects/project1/andy_project2.png`)
+                require(`../../src/assets/images/Projects/${projectData.thumbnail}`)
                   .default
               }
               width="100%"
@@ -57,37 +53,28 @@ class ProjectsProvider extends Component {
               style={{ objectFit: "cover" }}
             />
           </mat.Grid>
-          <mat.Grid
-            item
-            md={projectData.layout_mode === "full" ? 12 : 6}
-            xs={12}
-            className="project_details"
-          >
+          <mat.Grid item md={6} xs={12} className="project_details">
             <h3>{projectData.name}</h3>
             <mat.Grid container>
-              <mat.Grid
+              {/* <mat.Grid
                 item
                 md={2}
                 xs={12}
                 display={projectData.layout_mode === "full" ? "block" : "none"}
-              />
-              <mat.Grid
-                item
-                md={projectData.layout_mode === "full" ? 4 : 12}
-                xs={12}
-                className={
-                  projectData.layout_mode === "full"
-                    ? "contentL"
-                    : "content_gutter "
-                }
-              >
+              /> */}
+              <mat.Grid item md={4} xs={12} className="content_gutter ">
                 <span>
                   <p>
                     {student_data.length > 1 ? "Students :" : "Student :"}
                     <br />
                     {student_data.map((stud) => {
                       return (
-                        <Link to={`/people/${stud.url}`}>{stud.name} </Link>
+                        <Link
+                          to={`/people/${stud.url}`}
+                          style={{ textDecoration: "underline" }}
+                        >
+                          {stud.name}{" "}
+                        </Link>
                       );
                     })}
                   </p>
@@ -96,7 +83,10 @@ class ProjectsProvider extends Component {
                   <p>
                     Category:
                     <br />
-                    <Link to={`/themes/${category_data.url}`}>
+                    <Link
+                      to={`/themes/${category_data.url}`}
+                      style={{ textDecoration: "underline" }}
+                    >
                       {category_data.name}
                     </Link>
                   </p>
@@ -111,34 +101,27 @@ class ProjectsProvider extends Component {
               </mat.Grid>
               <mat.Grid
                 item
-                md={projectData.layout_mode === "full" ? 4 : 12}
+                md={12}
                 xs={12}
-                className={
-                  projectData.layout_mode === "full"
-                    ? "contentR"
-                    : "content_gutter "
-                }
+                className="content_gutter "
+
                 // className="contentR"
               >
                 <p>{projectData.mainContent}</p>
               </mat.Grid>
-              <mat.Grid
+              {/* <mat.Grid
                 item
                 md={2}
                 xs={12}
                 display={projectData.layout_mode === "full" ? "block" : "none"}
-              />
+              /> */}
             </mat.Grid>
           </mat.Grid>
         </mat.Grid>
         {projectData.subContent.map((data) => {
           return (
             <mat.Grid container className="project_wrapper">
-              <mat.Grid
-                item
-                md={projectData.layout_mode === "full" ? 12 : 6}
-                xs={12}
-              >
+              <mat.Grid item md={12} xs={12}>
                 <img
                   alt="social"
                   src={
@@ -150,12 +133,7 @@ class ProjectsProvider extends Component {
                   style={{ objectFit: "cover" }}
                 />
               </mat.Grid>
-              <mat.Grid
-                item
-                md={projectData.layout_mode === "full" ? 12 : 6}
-                xs={12}
-                className="content_details"
-              >
+              <mat.Grid item md={12} xs={12} className="content_details">
                 <p>{data.definition}</p>
               </mat.Grid>
             </mat.Grid>
