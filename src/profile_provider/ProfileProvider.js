@@ -4,7 +4,7 @@ import people from "../assets/drivers/people.json";
 import projects from "../assets/drivers/projects.json";
 import * as mat from "@mui/material";
 import * as icon from "@mui/icons-material";
-import "./profileProvider.css";
+import "./ProfileProvider.css";
 class PeopleProvider extends Component {
   constructor() {
     super();

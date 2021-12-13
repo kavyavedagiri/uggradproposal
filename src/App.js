@@ -2,7 +2,7 @@ import React from "react";
 import { Component } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import categoryProvider from "./people_provider/categoryProvider";
-import ProfileProvider from "./profile_provider/profileProvider";
+import ProfileProvider from "./profile_provider/ProfileProvider";
 import Home from "./home/Home";
 import ProjectsProvider from "./projects_provider/ProjectsProvider";
 import Header from "./header/Header";
