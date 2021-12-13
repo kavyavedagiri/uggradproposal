@@ -10,6 +10,20 @@
     url("./assets/fonts/AvenirLTStd-Book.otf") format("truetype");
   font-weight: bold;
 }
+* {
+  opacity: 1;
+  animation: fade 0.5s;
+  -webkit-animation: fade 0.5s;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
 html {
   scroll-behavior: smooth;
 }
@@ -52,6 +66,9 @@ p {
   line-height: 20px;
   word-spacing: 3px;
 }
+.hide_desk {
+  display: none;
+}
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 32px;
@@ -64,5 +81,8 @@ p {
   }
   h3 {
     font-size: 16px;
+  }
+  .hide_desk {
+    display: revert;
   }
 }

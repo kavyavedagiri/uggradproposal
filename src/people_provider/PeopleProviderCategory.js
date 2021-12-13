@@ -6,6 +6,12 @@ import categories from "../assets/drivers/categories.json";
 import * as mat from "@mui/material";
 import "./peopleProvider.css";
 class PeopleProvider extends Component {
+  constructor() {
+    super();
+    this.state = {
+      open_category: false,
+    };
+  }
   render() {
     // get abbreivation from the category name
     let categorySymbol = categories.data.filter((el) => {
@@ -50,6 +56,78 @@ class PeopleProvider extends Component {
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <mat.Paper className={`cat_content content_${categorySymbol}`}>
+                  <img
+                    className="island_icon hide_desk"
+                    width="50px"
+                    height="50px"
+                    src={
+                      require(`../assets/images/Island/${this.props.island_info.assets.island}`)
+                        .default
+                    }
+                    onClick={() => {
+                      this.setState({
+                        open_category: !this.state.open_category,
+                      });
+                    }}
+                  />
+                  <mat.Grid
+                    container
+                    className="btn_row"
+                    style={{
+                      display: `${this.state.open_category ? "flex" : "none"}`,
+                    }}
+                  >
+                    <Link to={`/themes/${filter_url[0]}`}>
+                      {" "}
+                      <mat.Button
+                        variant="contained"
+                        size="small"
+                        className="home_btn "
+                      >
+                        {filter_url[0]}
+                      </mat.Button>
+                    </Link>
+                    <Link to={`/themes/${filter_url[1]}`}>
+                      {" "}
+                      <mat.Button
+                        variant="contained"
+                        size="small"
+                        className="home_btn"
+                      >
+                        {filter_url[1]}
+                      </mat.Button>
+                    </Link>
+                    <Link to={`/themes/${filter_url[2]}`}>
+                      {" "}
+                      <mat.Button
+                        variant="contained"
+                        size="small"
+                        className="home_btn "
+                      >
+                        {filter_url[2]}
+                      </mat.Button>
+                    </Link>
+                    <Link to={`/themes/${filter_url[3]}`}>
+                      {" "}
+                      <mat.Button
+                        variant="contained"
+                        size="small"
+                        className="home_btn "
+                      >
+                        {filter_url[3]}
+                      </mat.Button>
+                    </Link>
+                    <Link to={`/themes/${filter_url[4]}`}>
+                      {" "}
+                      <mat.Button
+                        variant="contained"
+                        size="small"
+                        className="home_btn "
+                      >
+                        {filter_url[4]}
+                      </mat.Button>
+                    </Link>
+                  </mat.Grid>
                   <mat.Grid container spacing={4}>
                     <mat.Grid item md={12} xs={12}>
                       <mat.Grid
@@ -69,7 +147,8 @@ class PeopleProvider extends Component {
                 </mat.Paper>
               </mat.Grid>
             </mat.Grid>
-            <div style={{ height: "100px", margin: "1px" }}> </div>
+
+            {/* <div style={{ height: "100px", margin: "1px" }}> </div> */}
             {/*ISLAND -START  */}
             <mat.Grid container className="island_wrapper">
               <img
@@ -80,86 +159,6 @@ class PeopleProvider extends Component {
                 alt="island"
                 className="island_main"
               />
-              {/*  BRIDGE - START */}
-              <div className="bridge_NE">
-                <img
-                  src={
-                    require(`../assets/images/Bridges/${this.props.island_info.assets.bridge}`)
-                      .default
-                  }
-                  width="100%"
-                  alt="island"
-                />
-                <Link to={`/themes/${filter_url[0]}`}>
-                  {" "}
-                  <mat.Button
-                    variant="contained"
-                    size="small"
-                    className="home_btn bridge_btn"
-                  >
-                    {filter_url[0]}
-                  </mat.Button>
-                </Link>
-              </div>
-              <div className="bridge_NW">
-                <img
-                  src={
-                    require(`../assets/images/Bridges/${this.props.island_info.assets.bridge}`)
-                      .default
-                  }
-                  width="100%"
-                  alt="island"
-                  className="bridge_rev"
-                />
-                <Link to={`/themes/${filter_url[1]}`}>
-                  <mat.Button
-                    variant="contained"
-                    size="small"
-                    className="home_btn bridge_btn"
-                  >
-                    {filter_url[1]}
-                  </mat.Button>
-                </Link>
-              </div>
-              <div className="bridge_SW">
-                <img
-                  src={
-                    require(`../assets/images/Bridges/${this.props.island_info.assets.bridge}`)
-                      .default
-                  }
-                  width="100%"
-                  alt="island"
-                />
-                <Link to={`/themes/${filter_url[2]}`}>
-                  <mat.Button
-                    variant="contained"
-                    size="small"
-                    className="home_btn bridge_btn"
-                  >
-                    {filter_url[2]}
-                  </mat.Button>
-                </Link>
-              </div>
-              <div className="bridge_SE">
-                <img
-                  src={
-                    require(`../assets/images/Bridges/${this.props.island_info.assets.bridge}`)
-                      .default
-                  }
-                  width="100%"
-                  alt="island"
-                  className="bridge_rev "
-                />
-                <Link to={`/themes/${filter_url[3]}`}>
-                  <mat.Button
-                    variant="contained"
-                    size="small"
-                    className="home_btn bridge_btn"
-                  >
-                    {filter_url[3]}
-                  </mat.Button>
-                </Link>
-              </div>
               <mat.Grid container className="students_list">
                 {students.map((student) => {
                   return (
