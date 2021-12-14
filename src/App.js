@@ -1,26 +1,22 @@
 import React from "react";
 import { Component } from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import {
+  // BrowserRouter as Router,
+  Switch,
+  Route,
+  HashRouter,
+} from "react-router-dom";
 import categoryProvider from "./people_provider/categoryProvider";
 import ProfileProvider from "./profile_provider/ProfileProvider";
 import Home from "./home/Home";
 import ProjectsProvider from "./projects_provider/ProjectsProvider";
 import Header from "./header/Header";
 import Footer from "./footer/Footer";
-import history from "./history";
 class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      open_category: false,
-    };
-  }
-  // componentDidMount() {
-  //   history.push("/");
-  // }
   render() {
     return (
-      <BrowserRouter basename="/">
+      <HashRouter>
+        {/* // <Router history={history}> */}
         <div className="App">
           <Header />
           <Switch>
@@ -31,7 +27,8 @@ class App extends Component {
           </Switch>
           <Footer />
         </div>
-      </BrowserRouter>
+        {/* // </Router> */}
+      </HashRouter>
     );
   }
 }
