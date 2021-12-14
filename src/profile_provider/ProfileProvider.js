@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import people from "../assets/drivers/people.json";
 import projects from "../assets/drivers/projects.json";
 import * as mat from "@mui/material";
-import * as icon from "@mui/icons-material";
+// import * as icon from "@mui/icons-material";
 import "./ProfileProvider.css";
 class PeopleProvider extends Component {
   constructor() {

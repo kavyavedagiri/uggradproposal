@@ -57,6 +57,7 @@ class PeopleProvider extends Component {
               >
                 <mat.Paper className={`cat_content content_${categorySymbol}`}>
                   <img
+                    alt="islands"
                     className="island_icon hide_desk"
                     width="50px"
                     height="50px"

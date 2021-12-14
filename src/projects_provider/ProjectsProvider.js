@@ -29,9 +29,9 @@ class ProjectsProvider extends Component {
 
     var categoryArray = category.data;
     var category_data;
-    for (var i = 0; i < categoryArray.length; i++) {
-      if (categoryArray[i].abbr === projectData.category) {
-        category_data = categoryArray[i];
+    for (var k = 0; k < categoryArray.length; k++) {
+      if (categoryArray[k].abbr === projectData.category) {
+        category_data = categoryArray[k];
       }
     }
 
